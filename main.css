@@ -1,0 +1,74 @@
+<h1>Linear Gradient - Top to Bottom</h1>
+<p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+<div id="grad1"></div>
+
+</body>
+</html>
+
+.container {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(64, 0, 255);
+  }
+  
+  p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomlinks {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.bottomlinks h4 {
+    text-align: center;
+}
+
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.bottomlinks li {
+    margin: 5px 0;
+}
+
+.bottomlinks a {
+    text-decoration: none;
+    color: #000; /* You can set the desired link color */
+}
+
+#grad {
+    background-image: linear-gradient(red, yellow);
+  }
+
+  .container {
+    text-align: center; /* Optionally, for centering the blocks horizontally */
+}
+
+.block {
+    display: inline-block;
+    width: 50%; /* Adjust the width as needed for your layout */
+}
+
+h1 {text-align: center;}
+h5 {text-align: center;}
